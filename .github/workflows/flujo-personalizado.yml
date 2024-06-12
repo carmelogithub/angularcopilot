@@ -14,4 +14,4 @@ jobs:
               uses: actions/checkout@v2
 
             - name: Ejecutar acción personalizada
-              uses: ./.github/actions/personaliza/action.yml
+              uses: ./.github/actions/personalizas/action.yml
