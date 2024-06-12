@@ -10,8 +10,8 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-           # - name: Checkout código
-           #  uses: actions/checkout@v2
+            - name: Checkout código
+              uses: actions/checkout@v2
 
             - name: Ejecutar acción personalizada
-              uses: ./.github/actions/personalizas/action.yml
+              uses: .github/actions/personalizadas/action.yml
