@@ -1,0 +1,16 @@
+name: Hola Mundo Action
+description: Una acción personalizada que muestra "Hola mundo" en la consola
+
+on:
+  push:
+    branches:
+      - master
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Checkout del repositorio
+      uses: actions/checkout@v2
+
+    - name: Mostrar "Hola mundo" en consola
+      run: echo "Hola mundo"
